@@ -51,13 +51,13 @@ TransportDelayPrediction/
 Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/TransportDelayPrediction.git
+git clone https://github.com/Mohitr2006/TransportDelay.git
 ```
 
 Move into the project directory:
 
 ```bash
-cd TransportDelayPrediction
+cd TransportDelay
 ```
 
 Install the required packages:
