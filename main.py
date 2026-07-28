@@ -43,15 +43,15 @@ def preprocess(df):
     df["minute"] = df["time"].dt.minute
 
     df["scheduled_departure"] = pd.to_datetime(
-    df["scheduled_departure"],
-    format="%H:%M:%S"
+        df["scheduled_departure"],
+        format="%H:%M:%S"
     )
     df["departure_hour"] = df["scheduled_departure"].dt.hour
     df["departure_minute"] = df["scheduled_departure"].dt.minute
 
     df["scheduled_arrival"] = pd.to_datetime(
-    df["scheduled_arrival"],
-    format="%H:%M:%S"
+        df["scheduled_arrival"],
+        format="%H:%M:%S"
     )
     df["arrival_hour"] = df["scheduled_arrival"].dt.hour
     df["arrival_minute"] = df["scheduled_arrival"].dt.minute
